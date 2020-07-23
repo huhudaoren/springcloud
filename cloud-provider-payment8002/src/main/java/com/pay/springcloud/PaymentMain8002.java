@@ -8,16 +8,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class PaymentMain8001 {
-
-    @RequestMapping(value = "/")
-    @ResponseBody
-    public String hello8001(){
-        return "欢迎访问8001端口";
-    }
+public class PaymentMain8002 {
 
     public static void main(String[] args) {
-        SpringApplication.run(PaymentMain8001.class,args);
+        SpringApplication.run(PaymentMain8002.class,args);
     }
 
 }

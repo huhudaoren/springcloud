@@ -14,9 +14,10 @@ import javax.annotation.Resource;
 @Slf4j
 public class OrderController {
 
-//    @Value("rest.url.paymentURL")
-//    private  static  String PAYMENT_URL;
-      private final static  String PAYMENT_URL = "http://localhost:8001";
+
+     // private final static  String PAYMENT_URL = "http://localhost:8001";
+    private final static  String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
+
 
     /**
      * RestTemplate 提供了多种便捷访问Http服务的方法
