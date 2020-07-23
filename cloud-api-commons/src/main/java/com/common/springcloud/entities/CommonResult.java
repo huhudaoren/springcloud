@@ -1,4 +1,4 @@
-package com.pay.springcloud.entities;
+package com.common.springcloud.entities;
 
 
 import lombok.AllArgsConstructor;

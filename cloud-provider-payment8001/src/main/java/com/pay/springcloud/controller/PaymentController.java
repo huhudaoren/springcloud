@@ -1,8 +1,8 @@
 package com.pay.springcloud.controller;
 
 
-import com.pay.springcloud.entities.CommonResult;
-import com.pay.springcloud.entities.Payment;
+import com.common.springcloud.entities.CommonResult;
+import com.common.springcloud.entities.Payment;
 import com.pay.springcloud.service.impl.PaymentServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

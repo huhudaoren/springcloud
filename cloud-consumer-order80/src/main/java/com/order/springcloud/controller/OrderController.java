@@ -1,9 +1,9 @@
 package com.order.springcloud.controller;
 
-import com.order.springcloud.entities.CommonResult;
-import com.order.springcloud.entities.Payment;
+
+import com.common.springcloud.entities.CommonResult;
+import com.common.springcloud.entities.Payment;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
@@ -14,7 +14,9 @@ import javax.annotation.Resource;
 @Slf4j
 public class OrderController {
 
-    private final static  String PAYMENT_URL = "http://localhost:8001";
+//    @Value("rest.url.paymentURL")
+//    private  static  String PAYMENT_URL;
+      private final static  String PAYMENT_URL = "http://localhost:8001";
 
     /**
      * RestTemplate 提供了多种便捷访问Http服务的方法

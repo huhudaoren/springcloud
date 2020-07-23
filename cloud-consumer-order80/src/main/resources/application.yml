@@ -4,3 +4,8 @@ server:
 spring:
   application:
     name: cloud-order-service
+
+
+rest:
+  url:
+    paymentURL: http://localhost:8001
